@@ -7,7 +7,7 @@ const Navbar = () => {
       </div>
       <div className="flex flex-1 justify-between text-[#333333] font-semibold">
         {navList.map((item, index) => (
-          <p key={index}>{item}</p>
+          <p className="hover:underline cursor-pointer" key={index}>{item}</p>
         ))}
       </div>
     </div>
