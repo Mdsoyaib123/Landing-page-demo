@@ -11,7 +11,7 @@ const Banner = () => {
           src="https://i.postimg.cc/vDFxThh6/scandinavian-interior-mockup-wall-decal-background-1961-259.jpg"
           alt=""
         />
-        <div className="relative flex justify-end  top-14 -left-20 ">
+        <div className="relative flex justify-end  top-16 -left-20 ">
           <div className="p-6 w-[643px]  border bg-[#DFE9F4] rounded-xl    ">
             <p className="text-[#111111] font-semibold">New Arrival</p>
             <h1 className="text-[52px] font-bold text-[#054C73] pt-2 ">
