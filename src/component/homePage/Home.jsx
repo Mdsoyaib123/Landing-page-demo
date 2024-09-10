@@ -1,6 +1,7 @@
 import Inspri from "../Inspri"
 import Banner from "./Banner"
 import Beauti from "./Beauti"
+import Browse from "./Browse"
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
         <Banner></Banner>
         <Inspri></Inspri>
         <Beauti></Beauti>
+        <Browse></Browse>
     </div>
   )
 }
