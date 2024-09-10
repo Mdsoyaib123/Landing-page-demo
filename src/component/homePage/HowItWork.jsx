@@ -6,7 +6,7 @@ const HowItWork = () => {
     <div className="text-center py-12 mb-10 max-w-[1145px] mx-auto">
       <h1 className="text-[32px] font-bold ">How It Works</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <div className="flex gap-6 pt-12">
+      <div className=" md:flex gap-6 pt-12 px-10 md:px-0">
         <div>
           <img className="rounded-xl pb-4" src={img1} alt="" />
           <h1 className="text-[#333333] py-2 font-bold text-[24px]">Purchase Securely</h1>

@@ -1,12 +1,12 @@
 const Browse = () => {
   return (
-    <div className="border-b">
+    <div className="border-b px-8 md:px-0 mt-64 lg:mt-0">
       <div className="text-[#333333] text-center max-w-[1145px] mx-auto py-12 ">
         <h1 className="text-[32px] font-bold">Browse The Range</h1>
         <p className="py-2 pb-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <div className="flex gap-5">
+        <div className=" md:flex gap-5">
           <div className=" cursor-pointer">
             <img
               className="rounded-xl"

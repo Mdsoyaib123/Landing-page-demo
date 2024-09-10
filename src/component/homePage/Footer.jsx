@@ -4,8 +4,8 @@ import footerImg3 from "../../assets/footerIMg3.png";
 import footerImg4 from "../../assets/footerImg4.png";
 const Footer = () => {
   return (
-    <div className="bg-[#03344F] py-10">
-      <div className="max-w-[1145px] mx-auto flex  gap-10">
+    <div className="bg-[#03344F] py-16 px-10 md:px-0">
+      <div className="max-w-[1145px] mx-auto md:flex  gap-10">
         <div className="space-y-5">
           <h1 className="text-[24px] font-bold pb-4 text-white">Beauty Care</h1>
           <p className="text-[#FFFFFF] leading-9">
@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <p className="text-white text-[24px] font-bold">Follow Us</p>
         </div>
-        <div>
+        <div className="mt-8 md:mt-0">
           <h1 className="text-[24px] font-bold pb-4 text-white" >Instagram Shop</h1>
           <div className="flex  gap-5">
             <div>
