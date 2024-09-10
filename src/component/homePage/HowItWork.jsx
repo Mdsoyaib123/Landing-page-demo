@@ -1,6 +1,6 @@
 import img1 from "../../assets/1.png";
 import img2 from '../../assets/2.png'
-import img3 from '../../assets/3 (1).png'
+import img3 from '../../assets/insPriImg1.png'
 const HowItWork = () => {
   return (
     <div className="text-center py-12 mb-10 max-w-[1145px] mx-auto">

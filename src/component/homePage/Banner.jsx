@@ -1,14 +1,14 @@
 import { FaCaravan } from "react-icons/fa";
 import { TbHours24 } from "react-icons/tb";
 import { MdVerifiedUser } from "react-icons/md";
-
+import bannerImg from '../../assets/BannerImg.jpg'
 const Banner = () => {
   return (
     <div className="">
       <div className="h-screen relative">
         <img
           className="w-full h-full absolute object-cover"
-          src="https://i.postimg.cc/vDFxThh6/scandinavian-interior-mockup-wall-decal-background-1961-259.jpg"
+          src={bannerImg}
           alt=""
         />
         <div className="relative hi lg:flex justify-end top-16 md:top-20 lg:-left-20 p-4">
