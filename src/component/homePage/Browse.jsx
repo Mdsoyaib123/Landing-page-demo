@@ -1,3 +1,6 @@
+import browseImg1 from '../../assets/browseImg1.png'
+import browseImg2 from '../../assets/browseImg2.png'
+import browseImg3 from '../../assets/browseImg3.png'
 const Browse = () => {
   return (
     <div className="border-b px-8 md:px-0 mt-64 lg:mt-0">
@@ -10,7 +13,7 @@ const Browse = () => {
           <div className=" cursor-pointer">
             <img
               className="rounded-xl"
-              src="https://i.postimg.cc/tCkryZ54/10-09-2024-16-43-53-REC-1.png"
+              src={browseImg1}
               alt=""
             />
             <h1 className="py-2 text-[24px] font-semibold"> Dining</h1>
@@ -18,7 +21,7 @@ const Browse = () => {
           <div className="cursor-pointer">
             <img
               className="rounded-xl"
-              src="https://i.postimg.cc/nLrVTDdj/10-09-2024-16-52-24-REC-1.png"
+              src={browseImg2}
               alt=""
             />
             <h1 className="py-2 text-[24px] font-semibold">Living</h1>
@@ -26,7 +29,7 @@ const Browse = () => {
           <div className="cursor-pointer">
             <img
               className="rounded-xl"
-              src="https://i.postimg.cc/XYT1DMLf/10-09-2024-16-54-08-REC-1.png"
+              src={browseImg3}
               alt=""
             />
             <h1 className="py-2 text-[24px] font-semibold">Bedroom</h1>

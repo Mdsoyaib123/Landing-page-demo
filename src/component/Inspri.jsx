@@ -1,3 +1,7 @@
+
+import ins1 from '../assets/insPriImg1.png'
+import ins2 from '../assets/inspriImg2.png'
+import ins3 from '../assets/inspriImg3.jpg'
 const Inspri = () => {
   return (
     <div className="max-w-[1145px] mx-auto mb-10 mt-10 md:mt-0 px-8 md:px-0">
@@ -8,22 +12,22 @@ const Inspri = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
       <div>
-        <div className=" md:flex  gap-10 pt-0 md:pt-12 ">
+        <div className=" md:flex  gap-6 pt-0 md:pt-12 ">
           <img
             className="rounded-tl-[70px] pb-16 md:pb-0"
-            src="https://i.postimg.cc/R0j4b2m4/Clipboard.jpg"
+            src={ins1}
             alt=""
           />
 
           <img
             className="relative -top-8 pb-1 md:pb-0"
-            src="https://i.postimg.cc/htvn4KPK/Clipboard-1.jpg"
+            src={ins2}
             alt=""
           />
 
           <img
             className="rounded-br-[70px] "
-            src="https://i.postimg.cc/nM8mF3qJ/CLA05-W-1-600x700-1.jpg"
+            src={ins3}
             alt=""
           />
         </div>
